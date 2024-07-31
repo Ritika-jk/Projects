@@ -1,7 +1,7 @@
 import random
 
 def print_choice(choice):
-  """Prints the corresponding text-based image for the given choice."""
+
   if choice == "r":
     print(r)
   elif choice == "p":
@@ -10,7 +10,7 @@ def print_choice(choice):
     print(s)
 
 def determine_winner(user_choice, computer_choice):
-  """Determines the winner of the game."""
+  
   if user_choice == computer_choice:
     return "It's a tie!"
   elif user_choice == "r":
@@ -30,7 +30,7 @@ def determine_winner(user_choice, computer_choice):
       return "You lose! Rock smashes scissors."
 
 def play():
-  """Main game loop."""
+ 
   print("Welcome to Rock, Paper, Scissors!")
 
   while True:
